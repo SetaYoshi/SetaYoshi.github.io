@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 5071px;
+  min-height: 5106px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -449,7 +449,7 @@
 .u-section-1 .u-list-3 {
   grid-template-rows: auto;
   width: 1090px;
-  margin: 37px auto 35px;
+  margin: 37px auto 60px;
 }
 
 .u-section-1 .u-repeater-3 {
@@ -588,7 +588,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 4139px;
+    min-height: 4168px;
   }
 
   .u-section-1 .u-layout-wrap-1 {

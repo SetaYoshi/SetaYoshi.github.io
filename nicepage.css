@@ -42626,7 +42626,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 237px;
+  min-height: 247px;
 }
 
 .u-header .u-image-1 {
@@ -42634,7 +42634,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 96px;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 11px auto 0 9px;
+  margin: 20px auto 0 20px;
 }
 
 .u-header .u-logo-image-1 {
@@ -42645,18 +42645,19 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-shape-1 {
   width: 166px;
   height: 62px;
-  margin: -79px 415px 0 auto;
+  margin: -82px 423px 0 auto;
 }
 
 .u-header .u-text-1 {
   font-size: 3rem;
   letter-spacing: 2px;
   background-image: none;
-  margin: -69px 415px 0 430px;
+  width: 295px;
+  margin: -66px auto 0;
 }
 
 .u-header .u-menu-1 {
-  margin: -56px 0 0 auto;
+  margin: -56px 20px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -42671,7 +42672,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-list-1 {
   width: 1056px;
-  margin: 62px auto 19px;
+  margin: 50px auto 31px;
 }
 
 .u-header .u-repeater-1 {
@@ -42774,25 +42775,30 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 10px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 244px;
+  }
+
   .u-header .u-image-1 {
+    height: 95px;
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .u-header .u-shape-1 {
     width: 166px;
-    margin-top: -94px;
-    margin-right: 322px;
+    margin-top: -79px;
+    margin-right: 323px;
   }
 
   .u-header .u-text-1 {
-    width: 295px;
+    width: 294px;
     margin-top: -69px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -50px;
+    width: auto;
+    margin-top: -58px;
   }
 
   .u-header .u-nav-1 {
@@ -42800,7 +42806,11 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-list-1 {
-    width: 940px;
+    margin-top: 48px;
+    margin-bottom: 29px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-header .u-repeater-1 {
@@ -42817,17 +42827,27 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 235px;
+  }
+
   .u-header .u-image-1 {
+    width: 95px;
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .u-header .u-shape-1 {
-    margin-top: -96px;
+    margin-top: -79px;
     margin-right: 213px;
   }
 
+  .u-header .u-text-1 {
+    margin-top: -69px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -48px;
+    margin-top: -55px;
   }
 
   .u-header .u-nav-1 {
@@ -42835,7 +42855,11 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-list-1 {
-    width: 720px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-header .u-repeater-1 {
@@ -42844,16 +42868,36 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 220px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 20px;
+  }
+
   .u-header .u-shape-1 {
-    margin-right: 123px;
+    width: 162px;
+    margin-top: -79px;
+    margin-right: 108px;
+  }
+
+  .u-header .u-text-1 {
+    width: auto;
+    margin-right: 109px;
+    margin-left: 137px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -48px;
+    margin-top: -56px;
   }
 
   .u-header .u-list-1 {
-    width: 540px;
+    margin-top: 55px;
+    margin-bottom: 0;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-header .u-repeater-1 {
@@ -42862,32 +42906,40 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 196px;
+  }
+
   .u-header .u-image-1 {
-    margin-top: 8px;
+    margin-top: 20px;
+    margin-left: 0;
   }
 
   .u-header .u-shape-1 {
-    width: 106px;
-    height: 40px;
-    margin-top: -67px;
-    margin-right: 45px;
+    width: 100px;
+    height: 48px;
+    margin-top: -71px;
+    margin-right: 49px;
   }
 
   .u-header .u-text-1 {
     font-size: 1.875rem;
-    width: auto;
-    margin-top: -44px;
-    margin-right: -7px;
-    margin-left: 52px;
+    margin-top: -48px;
+    margin-right: 43px;
+    margin-left: 99px;
   }
 
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -43px;
+    margin-top: -42px;
+    margin-right: 0;
   }
 
   .u-header .u-list-1 {
-    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-header .u-repeater-1 {
