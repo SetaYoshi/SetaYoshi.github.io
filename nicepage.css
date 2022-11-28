@@ -43107,13 +43107,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-image-1 {
   width: 189px;
   height: 189px;
-  margin: 11px auto 0;
+  margin: 8px auto 0;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
   font-size: 1.5rem;
-  margin: -151px auto 0;
+  margin: -148px auto 0;
 }
 
 .u-footer .u-text-2 {
@@ -43136,6 +43136,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
+    margin-top: -148px;
     font-size: 1.25rem;
   }
 }
