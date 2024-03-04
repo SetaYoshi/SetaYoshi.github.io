@@ -1,0 +1,15 @@
+.header-dsm {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 20px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.body-dsm {
+  color: white;
+  text-align: left;
+  padding: 20px 0px 0px;
+  margin-top: 20px;
+  width: 80%;
+}
