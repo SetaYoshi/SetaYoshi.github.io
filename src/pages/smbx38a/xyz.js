@@ -1,4 +1,4 @@
 import { Redirector } from "components";
-const link = "https://drive.google.com/file/d/1-YFohb190-dlP3PjRBhi9sByaNTOd-x5/view"
+const link = "https://www.dropbox.com/scl/fi/vtmxzqr659n970s66lxk3/XYZ.zip?rlkey=mc4bb89aivpfiisuwoc4fvuxx&dl=0"
 
 export default function () { Redirector(link) }
