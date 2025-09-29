@@ -1,9 +1,0 @@
-.textclick {
-  color: white;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.textclick:hover {
-  color: orangered;
-}
