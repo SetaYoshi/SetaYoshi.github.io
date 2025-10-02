@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import signature from "../assets/signature.png";
+---
+
+<style>
+  footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0px 0px 0px;
+    height: 300px;
+    margin-top: 50px;
+    position: relative;
+    left: 0px;
+    bottom: -200px;
+  }
+
+  .stump {
+    color: white;
+    padding: 20px 0px 20px;
+    margin-top: 20px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+<footer>
+  <section class="stump">
+    <center>
+      <Image loading="eager" src={signature} width="250" height="250" alt="Sus!?" />
+      <div class="centered">
+        What do you think?
+        <br />
+        <br />
+        <a class="link"href="https://astro.build">MADE WITH ASTRO</a>
+      </div>
+    </center>
+  </section>
+</footer>

@@ -1,0 +1,47 @@
+---
+const { name, url } = Astro.props;
+---
+
+<style>
+  a {
+    margin: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    box-sizing: content-box;
+    width: auto;
+    /* height: 80px; */
+
+    /* text-align: justify; */
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 18px;
+
+    color: white;
+    background-color: #00000080;
+
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  a:hover,
+  a:focus {
+    color: black;
+    background-color: #ffffff90;
+  }
+
+  @media screen and (min-width: 877px) {
+    a {
+      /* margin-left: 5em;
+      margin-up: 5em; */
+      width: 250px;
+      height: 50px;
+
+      display: inline-block;
+      margin: 10px 80px;
+      /* padding: 10px 30px;  */
+    }
+  }
+</style>
+
+<a href={url}>{name}</a>

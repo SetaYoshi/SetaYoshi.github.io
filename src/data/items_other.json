@@ -1,0 +1,36 @@
+[
+
+    {
+      "category": "none",
+      "title": "Egg Bot",
+      "description": "A template for building a Discord bot using Discordia, a lua library.",
+      "icon": "",
+      "link": "egg_bot",
+      "url": "https://github.com/SetaYoshi/egg-bot"
+    },
+    {
+      "category": "none",
+      "title": "MulT",
+      "description": "A WIP lua library that offer mathematical classes such as matrices, vectors, complex numbers, quaternions. colliders, and colors.",
+      "icon": "",
+      "link": "mult",
+      "url": "https://github.com/SetaYoshi/MulT"
+    },
+    {
+      "category": "none",
+      "title": "Astro",
+      "description": "A WIP 2D platformer engine for LÖVE",
+      "icon": "",
+      "link": "astro",
+      "url": "https://github.com/SetaYoshi/astro"
+    },
+    {
+      "category": "none",
+      "title": "Matte",
+      "description": "Maybe one day...",
+      "icon": "",
+      "link": "matte",
+      "url": "https://www.theonion.com/study-finds-most-effective-method-of-overcoming-procras-1837669093"
+    }
+    
+]

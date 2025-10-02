@@ -1,0 +1,26 @@
+---
+const { name, page, urlpage } = Astro.props;
+
+const url =
+  "https://www.migna.ir/images/docs/files/000058/nf00058253-2.pdf#page=";
+---
+
+<style>
+  .dsm-link {
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 10px;
+  }
+  .dsm-link:hover {
+    color: orangered;
+  }
+  
+  li {
+    margin: 7px 0px 0px;
+  }
+</style>
+
+<li>
+  <a class="dsm-link" href={url + urlpage}>{name}</a>
+  <i>(page {page})</i>
+</li>

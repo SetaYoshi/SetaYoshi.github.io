@@ -1,0 +1,46 @@
+---
+const { name, url, backgroundcolor, bordercolor } = Astro.props;
+---
+
+<style define:vars={{ backgroundcolor, bordercolor }}>
+  a {
+    margin: 20px 20px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    box-sizing: content-box;
+    width: auto;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: white;
+    background-color: #00000080;
+
+    border-width: 5px;
+    border-color: var(--bordercolor);
+    border-style: solid;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: var(--backgroundcolor);
+  }
+
+  @media screen and (min-width: 877px) {
+    a {
+      /* margin-left: 5em;
+      margin-up: 5em; */
+      width: 150px;
+
+      display: inline-block;
+      margin: 60px 20px;
+      padding: 10px 30px;
+    }
+  }
+</style>
+
+<a href={url}>{name}</a>

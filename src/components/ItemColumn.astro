@@ -1,0 +1,52 @@
+---
+
+import ItemButton from "../components/ItemButton.astro";
+const { folder, Items, bordercolor, backgroundcolor, N} = Astro.props;
+const NN = 1/N*100 + "%";
+---
+
+<style define:vars={{ NN }}>
+  .box {
+    width: 70%;
+    margin-top: 2rem;
+  }
+
+  .column {
+    /* margin: 0px 20px; */
+    /* padding: 20px 20px 20px 20px; */
+    /* /* display: block; */
+    box-sizing: content-box; */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (min-width: 877px) {
+    .column {
+      /* margin-left: 5em;
+      margin-up: 5em; */
+      float: left;
+      width: var(--NN);
+      /* width: auto; */
+      
+    }
+
+    .box {
+      /* width: 80%; */
+    }
+  }
+  </style>
+
+
+<center>
+<div class="box">
+  <div class="row">
+      {Items.map((item: any) => <div class="column"><ItemButton name={item.title},	description={item.description}bordercolor={bordercolor}, backgroundcolor={backgroundcolor}, url={"/" + folder + "/" + item.link}/></div>)}
+    </div>
+  </div>
+</center>
+  

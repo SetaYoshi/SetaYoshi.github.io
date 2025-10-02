@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+import ItemColumn from "../components/ItemColumn.astro";
+
+import allItems from "../data/items_smbx38a.json";
+
+const Item_episodes = [];
+const Item_levels = [];
+const Item_scripts = [];
+
+for (let i = 0; i < allItems.length; i++) {
+	let item = allItems[i];
+
+	if (item.category == "episode") {
+		Item_episodes.push(item);
+	} else if (item.category == "level") {
+		Item_levels.push(item);
+	} else if (item.category == "script") {
+		Item_scripts.push(item);
+	}
+}
+
+const bordercolor = "#6FEF00";
+const backgroundcolor = "#6FEF00B0";
+const folder = "smbx38a"
+---
+
+<BaseLayout pageTitle="SetaSMBX38A">
+	<Card>
+		<p class="card-title">SMBX38A</p>
+		<p class="card-text">
+			Super Mario Bros. X 38A is a recreation of the <a
+				href="https://wohlsoft.ru/pgewiki/History_of_SMBX"
+				class="link">original SMBX engine</a
+			>. A fangame that allows you to create your own levels and episodes with
+			your very own custom content.
+			<br />
+			<a
+				href="https://www.dropbox.com/s/u624gjlmpx7rpt5/SMBX38A.zip?dl=0"
+				class="link"
+				}>DOWNLOAD HERE</a
+			>
+			<a href="https://discord.gg/CWeeZmEbgu" class="link" }
+				>JOIN THE DISCORD SERVER!</a
+			>
+		</p>
+	</Card>
+
+	<Card>
+		<p class="card-heading">Episodes</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+		
+		Items={Item_episodes}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={1}
+	/>
+
+	<Card>
+		<p class="card-heading">Levels</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+		
+		Items={Item_levels}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={2}
+	/>
+
+	<Card>
+		<p class="card-heading">Scripts</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+		
+		Items={Item_scripts}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={3}
+	/>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+import ItemColumn from "../components/ItemColumn.astro";
+
+import allItems from "../data/items_other.json";
+
+const bordercolor = "#8800FF";
+const backgroundcolor = "#8800FFB0";
+const folder = "other";
+---
+
+<BaseLayout pageTitle="SetaOther">
+	<Card>
+		<p class="card-title">Other</p>
+		<p class="card-text">other stuff goes here</p>
+	</Card>
+
+	<ItemColumn
+		folder={folder}
+		,
+		Items={allItems}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={1}
+	/>,
+</BaseLayout>

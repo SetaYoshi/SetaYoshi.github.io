@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Card from "../../components/Card.astro";
+import allItems from "../../data/items_other.json";
+
+
+export async function getStaticPaths() {
+  const Items = [];
+  
+  for (let i = 0; i < allItems.length; i++) {
+    let item = allItems[i];
+  
+    Items.push({
+      params: { item: item.link },
+      props: { title: item.title, url: item.url },
+    });
+  }
+
+  return Items;
+}
+
+const { item } = Astro.params;
+const { title, url } = Astro.props;
+
+return Astro.redirect(url);
+---
+
+<BaseLayout pageTitle={title}>
+  <Card>
+    <p class="card-title">{title}</p>
+  </Card>
+</BaseLayout>

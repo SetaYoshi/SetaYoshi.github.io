@@ -1,0 +1,98 @@
+[
+
+    {
+      "category": "episode",
+      "title": "XYZ",
+      "description": "It's XYZ Time",
+      "icon": "",
+      "link": "xyz",
+      "url": "https://www.dropbox.com/scl/fi/vtmxzqr659n970s66lxk3/XYZ.zip?rlkey=mc4bb89aivpfiisuwoc4fvuxx&dl=0"
+    },
+    {
+      "category": "episode",
+      "title": "The Great SMBX 38A Contest I",
+      "description": "tba",
+      "icon": "",
+      "link": "the_great_smbx_38a_contest_i",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FThe%2520Great%2520SMBX%252038A%2520Contest%2520I"
+    },
+    {
+      "category": "episode",
+      "title": "The Great SMBX 38A Contest II",
+      "description": "tba2",
+      "icon": "",
+      "link": "the_great_smbx_38a_contest_ii",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FThe%2520Great%2520SMBX%252038A%2520Contest%2520II"
+    },
+   
+    
+    
+    {
+      "category": "level",
+      "title": "Cloudy Mountains",
+      "description": "tba2",
+      "icon": "",
+      "link": "cloudy_mountains",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FCloudy%2520Mountains"
+    },
+    {
+      "category": "level",
+      "title": "Existential Crisis",
+      "description": "tba2",
+      "icon": "",
+      "link": "existential_crisis",
+      "url": "https://download-directory.github.io/?url=https://github.com/SetaYoshi/SMBX-Downloads/tree/main/SMBX38A/Existential%20Crisis"
+    },
+    {
+      "category": "level",
+      "title": "Ying Yang",
+      "description": "tba2",
+      "icon": "",
+      "link": "ying_yang",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FYing%2520Yang"
+    },
+    
+
+    
+    {
+      "category": "script",
+      "title": "Parrallaxx",
+      "description": "Add layered backgrounds into your levels with an easy to use config system",
+      "icon": "",
+      "link": "parrallaxx",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FParrallaxx"
+    }, 
+    {
+      "category": "script",
+      "title": "Custom Cheats",
+      "description": "Create custom cheats tfor your levels",
+      "icon": "",
+      "link": "custom_cheats",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FCustom%2520Cheats"
+    },
+    {
+      "category": "script",
+      "title": "Custom Credits",
+      "description": "A simple and easy to use credits generator.",
+      "icon": "",
+      "link": "custom_credits",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FCustom%2520Credits"
+    },
+    {
+      "category": "script",
+      "title": "Faded Blocks",
+      "description": "Group blocks together which all begin to fade away when stepped on. As seen in XYZ",
+      "icon": "",
+      "link": "faded_blocks",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FFaded%2520Blocks"
+    },
+    {
+      "category": "script",
+      "title": "Color",
+      "description": "Easily create, operate, blend, and manage colors.",
+      "icon": "",
+      "link": "color",
+      "url": "https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSetaYoshi%2FSMBX-Downloads%2Ftree%2Fmain%2FSMBX38A%2FColor"
+    }
+    
+]

@@ -1,0 +1,34 @@
+---
+const { name } = Astro.props;
+---
+
+<style>
+  .card {
+    margin: 20px auto;
+  }
+  summary {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  div {
+    margin: 0 auto;
+    width: 50%;
+  }
+</style>
+
+<details class="card">
+  <summary>{name}</summary>
+  <br />
+  <div>
+    <slot />
+  </div>
+</details>

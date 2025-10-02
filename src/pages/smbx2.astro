@@ -1,0 +1,110 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+import ItemColumn from "../components/ItemColumn.astro";
+
+import allItems from "../data/items_smbx2.json";
+
+const Item_episodes = [];
+const Item_levels = [];
+const Item_npcpacks = [];
+const Item_scripts = [];
+
+for (let i = 0; i < allItems.length; i++) {
+	let item = allItems[i];
+
+	if (item.category == "episode") {
+		Item_episodes.push(item);
+	} else if (item.category == "level") {
+		Item_levels.push(item);
+	} else if (item.category == "npcpack") {
+		Item_npcpacks.push(item);
+	} else if (item.category == "script") {
+		Item_scripts.push(item);
+	}
+}
+
+const bordercolor = "#DF1313";
+const backgroundcolor = "#DF1313B0";
+const folder = "smbx2";
+---
+
+<BaseLayout pageTitle="SetaSMBX2">
+	<Card>
+		<p class="card-title">SMBX2</p>
+		<p class="card-text">
+			Super Mario Bros. X2 is an extension of the <a
+				href="https://wohlsoft.ru/pgewiki/History_of_SMBX"
+				class="link">original SMBX engine</a
+			>. A fangame that allows you to create your own levels and episodes with
+			your very own custom content.
+			<br />
+			<a href="https://codehaus.moe/downloads.php?" class="link" }
+				>DOWNLOAD HERE</a
+			>
+			<a href="https://discord.gg/S2eAAy6" class="link" }
+				>JOIN THE DISCORD SERVER!</a
+			>
+		</p>
+	</Card>
+
+	<Card>
+		<p class="card-heading">Episodes</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+
+		Items={Item_episodes}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={1}
+	/>
+
+	<Card>
+		<p class="card-heading">Levels</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+
+		Items={Item_levels}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={2}
+	/>
+
+	<Card>
+		<p class="card-heading">NPC PACK</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+
+		Items={Item_npcpacks}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={3}
+	/>
+
+	<Card>
+		<p class="card-heading">Scripts</p>
+	</Card>
+	<ItemColumn
+	  folder = {folder},
+
+		Items={Item_scripts}
+		,
+		bordercolor={bordercolor}
+		,
+		backgroundcolor={backgroundcolor}
+		,
+		N={1}
+	/>
+</BaseLayout>
